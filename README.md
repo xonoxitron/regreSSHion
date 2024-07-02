@@ -33,4 +33,10 @@ This repository contains an exploit targeting CVE-2024-6387 (regreSSHion), a vul
 You can customize the shellcode in the *exploit.c* file to execute different payloads or commands on the target system. The provided shellcode is a basic example that spawns a `/bin/sh` shell. Modify the `shellcode[]` array to suit your specific requirements.
 
 ## Legal Disclaimer
-Use this exploit responsibly and only on systems where you have explicit permission to test. Unauthorized use or distribution may violate local, state, or federal laws. The authors are not responsible for any misuse of this exploit.
+**Use of this exploit is at your own risk. By using this software, you agree that:**
+- You have permission to test the exploit on systems that you own or have explicit authorization to test.
+- You will not use this software for any illegal activities.
+- The authors are not responsible for any misuse of this software or any damage caused by it.
+- This software is provided "as is" without warranties or conditions of any kind.
+
+**Note:** Unauthorized use or distribution of this exploit may violate local, state, or federal laws. Understand and comply with your local laws and regulations before using or distributing this software.
