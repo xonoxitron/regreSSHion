@@ -12,7 +12,7 @@ This repository contains an exploit targeting CVE-2024-6387 (regreSSHion), a vul
 ## Usage
 1. **Compile the Exploit:**
    ```bash
-   gcc -o exploit 7etsuo-regreSSHion.c -lpthread
+   gcc -o exploit exploit.c -lpthread
    ```
 
 2. **Run the Exploit:**
