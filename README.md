@@ -3,6 +3,9 @@
 ## Description
 This repository contains an exploit targeting CVE-2024-6387 (regreSSHion), a vulnerability in OpenSSH's server (sshd) on glibc-based Linux systems. It exploits a race condition in the signal handler of OpenSSH, potentially leading to remote code execution as root.
 
+![CVE-2024-6387 PoC](https://github.com/xonoxitron/regreSSHion/blob/main/PoC.png?raw=true)
+
+
 ## Requirements
 - Linux system with glibc-based OpenSSH server (tested on Ubuntu, Debian).
 - `gcc` compiler installed.
